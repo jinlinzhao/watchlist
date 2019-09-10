@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ name }} is Watchlist</title>
+    <title>{{ user.name }} is Watchlist</title>
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico')}}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}" type="text/css">
 
@@ -10,7 +10,7 @@
 <body>
 <h2>
     <img alt="Avtatar" class="avatar" src="{{ url_for('static', filename='images/avatar.png')}}">
-    {{ name }} is Watchlist
+    {{ user.name }} is Watchlist
 
 </h2>
 {# 使用length 过滤器获取movies变量的长度#}
