@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d6f06e5-c14e-42ce-aea6-796f8775e3cc" name="Default Changelist" comment="111">
+    <list default="true" id="5d6f06e5-c14e-42ce-aea6-796f8775e3cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +24,13 @@
         <counts>
           <entry key="flaskenv" value="1" />
           <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
           <entry key="py" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="1" />
         </counts>
@@ -35,14 +39,16 @@
         <counts>
           <entry key="flaskenv" value="22" />
           <entry key="gitignore" value="5" />
-          <entry key="py" value="341" />
+          <entry key="html" value="320" />
+          <entry key="py" value="419" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="HTML" value="320" />
           <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="341" />
+          <entry key="Python" value="419" />
         </counts>
       </usages-collector>
     </session>
@@ -52,12 +58,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="393">
+              <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
               <folding>
-                <marker date="1568097734308" expanded="true" signature="225:230" ph="..." />
-                <marker date="1568097734308" expanded="true" signature="356:361" ph="..." />
-                <marker date="1568097734308" expanded="true" signature="426:599" ph="..." />
+                <marker date="1568099106066" expanded="true" signature="226:231" ph="..." />
+                <marker date="1568099106066" expanded="true" signature="357:362" ph="..." />
+                <marker date="1568099106066" expanded="false" signature="427:600" ph="..." />
+                <marker date="1568099106066" expanded="true" signature="730:1306" ph="..." />
+                <marker date="1568099106066" expanded="true" signature="1305:1306" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="e#427#433#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,6 +98,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -90,6 +111,7 @@
       <list>
         <option value="$PROJECT_DIR$/.flaskenv" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
@@ -100,9 +122,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="994" />
+    <option name="y" value="19" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -129,6 +151,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -165,18 +188,26 @@
       <option name="project" value="LOCAL" />
       <updated>1568098078570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="111">
+      <created>1568098387114</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568098387114</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="994" y="19" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114072494" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23413567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32664436" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32995495" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -268,14 +299,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#427#433#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="393">
+          <caret line="49" column="65" selection-start-line="49" selection-start-column="65" selection-end-line="49" selection-end-column="65" />
           <folding>
-            <marker date="1568097734308" expanded="true" signature="225:230" ph="..." />
-            <marker date="1568097734308" expanded="true" signature="356:361" ph="..." />
-            <marker date="1568097734308" expanded="true" signature="426:599" ph="..." />
+            <marker date="1568099106066" expanded="true" signature="226:231" ph="..." />
+            <marker date="1568099106066" expanded="true" signature="357:362" ph="..." />
+            <marker date="1568099106066" expanded="false" signature="427:600" ph="..." />
+            <marker date="1568099106066" expanded="true" signature="730:1306" ph="..." />
+            <marker date="1568099106066" expanded="true" signature="1305:1306" ph="..." />
           </folding>
         </state>
       </provider>
